@@ -55,6 +55,15 @@
     }
 
 
+    if ($page=="perusahaan") {
+      $masteraktif="active";
+      $perusahaan="active";
+    }
+
+    if ($page=="jenis_pekerjaan") {
+      $masteraktif="active";
+      $jenis_pekerjaan="active";
+    }
 
 
  ?>
@@ -82,6 +91,8 @@
              <li class="<?php echo $pegawaiaktif ?>"><a href="?page=pegawai"><i class="fa fa-circle-o"></i>Pegawai</a></li>
               <li class="<?php echo $keperluan ?>"><a href="?page=perlu"><i class="fa fa-circle-o"></i>Keperluan</a></li>
               <li class="<?php echo $departemen ?>"><a href="?page=departemen"><i class="fa fa-circle-o"></i>Departemen</a></li>
+              <li class="<?php echo $perusahaan ?>"><a href="?page=perusahaan"><i class="fa fa-circle-o"></i>Perusahaan</a></li>
+              <li class="<?php echo $jenis_pekerjaan ?>"><a href="?page=jenis_pekerjaan"><i class="fa fa-circle-o"></i>Jenis Pekerjaan</a></li>
           </ul>
         </li>
         <li>

@@ -34,6 +34,40 @@
     }
 
 
+
+    if ($page == "perusahaan") {
+      if ($aksi == "") {
+        include "page/perusahaan/perusahaan.php";
+      }
+      if ($aksi == "tambah") {
+        include "page/perusahaan/tambah.php";
+      }
+      if ($aksi == "ubah") {
+        include "page/perusahaan/ubah.php";
+      }
+      if ($aksi == "hapus") {
+        include "page/perusahaan/hapus.php";
+      }
+    }
+
+
+    if ($page == "jenis_pekerjaan") {
+      if ($aksi == "") {
+        include "page/jenis_pekerjaan/jenis_pekerjaan.php";
+      }
+      if ($aksi == "tambah") {
+        include "page/jenis_pekerjaan/tambah.php";
+      }
+      if ($aksi == "ubah") {
+        include "page/jenis_pekerjaan/ubah.php";
+      }
+      if ($aksi == "hapus") {
+        include "page/jenis_pekerjaan/hapus.php";
+      }
+    }
+
+
+
    
 
     if ($page == "laporan") {
